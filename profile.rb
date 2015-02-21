@@ -1,19 +1,28 @@
 require 'sinatra'
 require 'pry'
-require 'haml'
-# require 'sinatra/assetpack'
+require 'sass'
+require 'sinatra/assetpack'
 require 'sinatra/partial'
 
-# class Profile < Sinatra::Base
+register Sinatra::AssetPack
+	
+assets do
+	serve '/js', from: 'app/javascripts'
+	# jquery must be loaded first
+	js :application, ['/js/jquery.min.js', '/js/*.js']
+  js_compression :jsmin
 
-	set public_folder: 'public', static: true
+	serve '/css', from: 'app/stylesheets'
+  css :application, ['/css/*.css']
+  css_compression :sass
+end
 
-	configure do
-	  register Sinatra::Partial
-	end
+set public_folder: 'public', static: true
 
-	get "/" do
-	  erb :index
-	end
+configure do
+  register Sinatra::Partial
+end
 
-# end
+get "/" do
+  erb :index
+end

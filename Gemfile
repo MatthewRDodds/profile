@@ -2,7 +2,8 @@ source "https://rubygems.org/"
 
 # App Stack
 gem "sinatra", "~> 1.4"
-# gem 'sinatra-assetpack'
+gem 'sinatra-assetpack'
+gem 'sass'
 gem "haml"
 gem 'sinatra-partial'
 
