@@ -14,5 +14,5 @@ require "find"
 end
 
 # Load app
-require "profile"
+require "./profile"
 run Profile

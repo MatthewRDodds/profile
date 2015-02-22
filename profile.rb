@@ -1,8 +1,8 @@
-require 'sinatra'
 require 'pry'
 require 'sass'
 require 'sinatra/assetpack'
 require 'sinatra/partial'
+require 'sinatra/base'
 
 class Profile < Sinatra::Base
 	register Sinatra::AssetPack
