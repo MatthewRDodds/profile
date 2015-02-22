@@ -15,4 +15,4 @@ end
 
 # Load app
 require "profile"
-run Sinatra::Application
+run Profile

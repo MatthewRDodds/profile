@@ -1,16 +1,18 @@
-source "https://rubygems.org/"
+source 'https://rubygems.org/'
 
 # App Stack
-gem "sinatra", "~> 1.4"
+gem 'sinatra', '~> 1.4'
 gem 'sinatra-assetpack'
 gem 'sass'
-gem "haml"
 gem 'sinatra-partial'
+
+# Deployment
+gem 'unicorn'
 
 
 group :development do
-  gem "rake", "~> 10.0"
-  gem "minitest", "~> 5.2"
-  gem "rack-test", "~> 0.6"
-  gem "pry"
+  gem 'rake', '~> 10.0'
+  gem 'minitest', '~> 5.2'
+  gem 'rack-test', '~> 0.6'
+  gem 'pry'
 end

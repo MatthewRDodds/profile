@@ -1,0 +1,56 @@
+F, [2015-02-21T08:11:43.215738 #19836] FATAL -- : error adding listener addr=../profile/tmp/sockets/unicorn.sock
+/Users/matt/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/lib/unicorn/socket_helper.rb:167:in `bind_listen': Don't know how to bind: ../profile/tmp/sockets/unicorn.sock (ArgumentError)
+	from /Users/matt/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:242:in `listen'
+	from /Users/matt/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:809:in `block in bind_new_listeners!'
+	from /Users/matt/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:809:in `each'
+	from /Users/matt/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:809:in `bind_new_listeners!'
+	from /Users/matt/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:138:in `start'
+	from /Users/matt/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/bin/unicorn:126:in `<top (required)>'
+	from /Users/matt/.rbenv/versions/2.1.5/bin/unicorn:23:in `load'
+	from /Users/matt/.rbenv/versions/2.1.5/bin/unicorn:23:in `<main>'
+F, [2015-02-21T08:13:07.125349 #19955] FATAL -- : error adding listener addr=../profile/tmp/sockets/unicorn.sock
+/Users/matt/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/lib/unicorn/socket_helper.rb:167:in `bind_listen': Don't know how to bind: ../profile/tmp/sockets/unicorn.sock (ArgumentError)
+	from /Users/matt/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:242:in `listen'
+	from /Users/matt/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:809:in `block in bind_new_listeners!'
+	from /Users/matt/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:809:in `each'
+	from /Users/matt/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:809:in `bind_new_listeners!'
+	from /Users/matt/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:138:in `start'
+	from /Users/matt/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/bin/unicorn:126:in `<top (required)>'
+	from /Users/matt/.rbenv/versions/2.1.5/bin/unicorn:23:in `load'
+	from /Users/matt/.rbenv/versions/2.1.5/bin/unicorn:23:in `<main>'
+F, [2015-02-21T08:13:19.336974 #20010] FATAL -- : error adding listener addr=../profile/tmp/sockets/unicorn.sock
+/Users/matt/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/lib/unicorn/socket_helper.rb:167:in `bind_listen': Don't know how to bind: ../profile/tmp/sockets/unicorn.sock (ArgumentError)
+	from /Users/matt/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:242:in `listen'
+	from /Users/matt/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:809:in `block in bind_new_listeners!'
+	from /Users/matt/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:809:in `each'
+	from /Users/matt/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:809:in `bind_new_listeners!'
+	from /Users/matt/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:138:in `start'
+	from /Users/matt/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/bin/unicorn:126:in `<top (required)>'
+	from /Users/matt/.rbenv/versions/2.1.5/bin/unicorn:23:in `load'
+	from /Users/matt/.rbenv/versions/2.1.5/bin/unicorn:23:in `<main>'
+I, [2015-02-21T08:16:52.071585 #20357]  INFO -- : listening on addr=/Users/matt/Apps/personal_projects/profile/tmp/sockets/unicorn.sock fd=10
+I, [2015-02-21T08:16:52.072010 #20357]  INFO -- : worker=0 spawning...
+I, [2015-02-21T08:16:52.072632 #20357]  INFO -- : worker=1 spawning...
+I, [2015-02-21T08:16:52.073413 #20357]  INFO -- : master process ready
+I, [2015-02-21T08:16:52.074305 #20358]  INFO -- : worker=0 spawned pid=20358
+I, [2015-02-21T08:16:52.074932 #20358]  INFO -- : Refreshing Gem list
+I, [2015-02-21T08:16:52.074902 #20359]  INFO -- : worker=1 spawned pid=20359
+I, [2015-02-21T08:16:52.075452 #20359]  INFO -- : Refreshing Gem list
+I, [2015-02-21T08:16:52.323072 #20358]  INFO -- : worker=0 ready
+I, [2015-02-21T08:16:52.323588 #20359]  INFO -- : worker=1 ready
+D, [2015-02-21T10:30:08.999762 #20357] DEBUG -- : waiting 16.0s after suspend/hibernation
+D, [2015-02-21T12:06:35.171790 #20357] DEBUG -- : waiting 16.0s after suspend/hibernation
+D, [2015-02-21T15:06:08.067436 #20357] DEBUG -- : waiting 16.0s after suspend/hibernation
+D, [2015-02-21T15:06:45.461469 #20357] DEBUG -- : waiting 16.0s after suspend/hibernation
+D, [2015-02-21T16:12:13.476386 #20357] DEBUG -- : waiting 16.0s after suspend/hibernation
+D, [2015-02-21T16:45:59.076640 #20357] DEBUG -- : waiting 16.0s after suspend/hibernation
+D, [2015-02-21T18:11:22.788583 #20357] DEBUG -- : waiting 16.0s after suspend/hibernation
+D, [2015-02-21T20:00:17.349843 #20357] DEBUG -- : waiting 16.0s after suspend/hibernation
+D, [2015-02-21T20:17:42.876272 #20357] DEBUG -- : waiting 16.0s after suspend/hibernation
+D, [2015-02-22T01:49:16.326279 #20357] DEBUG -- : waiting 16.0s after suspend/hibernation
+D, [2015-02-22T03:38:25.505557 #20357] DEBUG -- : waiting 16.0s after suspend/hibernation
+D, [2015-02-22T05:27:04.423922 #20357] DEBUG -- : waiting 16.0s after suspend/hibernation
+D, [2015-02-22T06:42:58.533155 #20357] DEBUG -- : waiting 16.0s after suspend/hibernation
+D, [2015-02-22T08:31:37.590429 #20357] DEBUG -- : waiting 16.0s after suspend/hibernation
+D, [2015-02-22T09:47:16.473658 #20357] DEBUG -- : waiting 16.0s after suspend/hibernation
+D, [2015-02-22T09:56:39.668769 #20357] DEBUG -- : waiting 16.0s after suspend/hibernation

@@ -1,1 +1,0 @@
-cd ../ && docker build -t profile/nginx .
