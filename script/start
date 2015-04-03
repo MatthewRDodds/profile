@@ -1,3 +1,0 @@
-rm /usr/src/app/tmp/sockets/unicorn.sock
-bundle exec unicorn -c /usr/src/app/unicorn.rb -E production -D
-service nginx restart

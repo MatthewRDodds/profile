@@ -1,13 +1,18 @@
-<html lang="en">
+<html lang='en'>
   <title>Code is Beautiful</title>
   <head>
-    <%= css :application %>
-    <%= js :application %>
+    <script src='/javascripts/jquery.min.js' type='text/javascript'></script>
+    <script src='/javascripts/bootstrap.min.js' type='text/javascript'></script>
+    <script src='/javascripts/prism.js' type='text/javascript'></script>
+
+    <link href='/stylesheets/bootstrap.min.css' rel='stylesheet'>
+    <link href='/stylesheets/prism.css' rel='stylesheet'>
+    <link href='/stylesheets/site.css' rel='stylesheet'>
   </head>
 
   <body>
-    <div class="row site">
-      <div class="col-md-9 main-box">
+    <div class='row site'>
+      <div class='col-md-9 main-box'>
         <pre class='language-markup'>
 
           <code class='language-markup'></code>
@@ -20,7 +25,7 @@
   </body>
 </html>
 
-<script type="text/javascript">
+<script type='text/javascript'>
   content = document.documentElement.outerHTML;
   $('code').text(content);
   Prism.highlightAll();
