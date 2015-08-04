@@ -1,3 +1,3 @@
 ## profile
 
-This is the repo for a [personal site](http://matthewdodds.com)
+This used to be the repo for my [personal site.](http://matthewdodds.com)
